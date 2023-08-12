@@ -1,0 +1,66 @@
+.medicine-list {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .medicine-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medicine-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .medicine-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .medicine-list .medicine-info {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .medicine-list .medicine-name {
+    font-weight: bold;
+  }
+  
+  .medicine-list .stock-info {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .medicine-list button {
+    padding: 5px 10px;
+    background-color: #ff5c5c;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .medicine-list button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .medicine-list button.red {
+    background-color: red;
+  }
+  
+  .medicine-list button.red:disabled {
+    background-color: gray;
+  }

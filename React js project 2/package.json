@@ -1,0 +1,22 @@
+{
+    "name": "medicine-shop-inventory",
+    "version": "1.0.0",
+    "description": "Inventory management system for a medicine shop",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^12.0.0",
+      "@testing-library/user-event": "^13.5.0",
+      "web-vitals": "^1.1.3"
+    }
+  }

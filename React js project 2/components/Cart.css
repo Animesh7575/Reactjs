@@ -1,0 +1,26 @@
+.cart {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .cart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart li:last-child {
+    border-bottom: none;
+  }
